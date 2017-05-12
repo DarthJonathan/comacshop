@@ -1,0 +1,231 @@
+@font-face{
+
+
+	font-family: Mohave;
+	src: url("Mohave.otf");
+
+}
+
+@font-face{
+
+		font-family: MyriadPro;
+	src: url("Myriad.ttf");
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: MyriadPro;
+}
+
+button
+{
+	padding:1em;
+	cursor:pointer;
+	transition: all .2s ease-in-out;
+}
+
+button:hover
+{
+	opacity: 0.7;
+}
+
+#header li{
+	list-style-type: none;
+	display: inline-block;
+	width: 7em;
+	font-size: 15pt;
+	font-family:Mohave;
+	margin-left: 4em;
+	padding-bottom: 2em;
+	padding-top: 2em;
+
+}
+
+#header li a{
+	text-decoration: none;
+	color: black;
+	transition: ease-in-out 0.4s;
+}
+
+#header li a:hover{
+
+	color: green;
+}
+
+#homeAC{
+	
+	margin-top: 1em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	background: #1b2932;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+	color : white;
+	font-family:MyriadPro;
+	font-size: 40pt;
+
+}
+
+#logo{
+	position: absolute;
+	margin-left: 1em;
+	top: 3em;
+	background: #537083;
+	padding-top:0.2em;
+	padding-bottom: 0.2em;
+	padding-right: 0.3em;
+	padding-left: 0.3em;
+	font-family: Mohave;
+	font-size: 30pt;
+}
+
+#btnShop{
+	background: #7e99aa;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 1em;
+	border: 0;
+	font-family: Mohave;
+	padding-bottom: 1em;
+	font-size: 15pt;
+}
+
+#wrapper
+{
+	background: #d1d1d1;
+	height:auto;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#body{
+	margin-top:1.5em;
+	padding-top: 4em;
+	margin:0 10% 2em 10%;
+}
+
+#MouseContent{
+	background: black;
+	margin:0 5% 5em 0;
+	padding:0 10% 5em 2em;
+}
+
+#MouseContent h3{
+	margin:0 0 0 10%;
+	padding-top: 2em;
+	font-size: 20pt;
+	color: #539054;
+	font-family: Mohave;
+}
+
+#MouseContent h1{
+	margin: 0 0 1em 2em;
+	color: #539054;
+	font-size: 30pt;
+	font-family: Mohave;
+}
+
+
+#MouseContent p{
+	margin-left: 5em;
+
+	font-size: 12pt;
+	color: #539054;
+}
+
+#btnAddMouse{
+	margin:1em 0 0 10%;
+	background: #539054;
+	border: 0;
+	font-family: Mohave;
+	font-size: 15pt;
+
+}
+
+#KeyboardContent{
+	text-align: right;
+	background: #592022;
+	padding:0 3em 4em 10%;
+	margin-left:4em;
+}
+
+#body #KeyboardContent h3{
+	color: #c06064;
+	margin:0;
+	padding-top: 2em;
+	font-size: 20pt;
+	font-family: Mohave;
+}
+
+#body #KeyboardContent h1{
+	color: #c06064;
+	margin: 0 0 1em 0;
+	font-size: 30pt;
+	font-family: Mohave;
+
+}
+
+
+#body #KeyboardContent p{
+
+	color: #c06064;
+
+}
+
+#body #KeyboardContent button{
+
+	background: #c06064;
+
+}
+
+#footer{
+	margin: 3em 10% 0 10%;
+	background: #1a2932;
+	height:auto;
+}
+
+#footer .innerfooter
+{
+	height:25vh;
+}
+
+#footer .innerfooter ul
+{
+	width:20%;
+	float:left;
+	margin:0;
+	padding: 1em;
+}
+
+#footer .innerfooter ul:nth-child(1)
+{
+	margin-left: 2em;
+}
+
+#footer .innerfooter ul li:nth-child(1)
+{
+	font-size: 24px;
+}
+
+#footer li{
+	list-style-type: none;
+	margin:1em 0 1em 0;
+	color: white;
+	font-family: MyriadPro;
+	font-size: 12px;
+}
+
+#footer .footerbawahnya
+{
+	text-align: center;
+}
+
+#footer .footerbawahnya p
+{
+	font-family: MyriadPro;
+	background: #d1d1d1;
+	padding: 0.5em;
+	margin: 0;
+}
